@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/port', (req, res) => {
-    res,send(`<div>port is ${PORT}</div>`)
+    res.send(`<div>port is ${PORT}</div>`)
 })
 
 
